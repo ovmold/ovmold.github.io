@@ -1,0 +1,19 @@
+{% if site.data.data.slides %}
+<section class="section publications-section">
+
+  <h2 class="section-title"><i class="fa fa-film"></i>{{ site.data.data.slides.title }}</h2>
+
+  {% if site.data.data.slides.intro %}
+  <div class="intro">
+      <p>{{ site.data.data.slides.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for slide in site.data.data.slides.slides %}
+    <div class="item">
+      <div class="publication-title"><a href="{{site.baseurl}}/assets/files/slides/{{ slide.link }}">{{ slide.title }}</a></div>
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

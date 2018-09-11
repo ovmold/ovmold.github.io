@@ -1,0 +1,69 @@
+<!-- Use icons from fontawesome when you are adding new item in the contact list  -->
+<div class="sidebar-wrapper">
+
+   <div class="profile-container">
+
+       <img class="profile-img" src="{{site.baseurl}}/assets/images/{{ site.data.data.sidebar.pic }}" alt="profile picture" />
+
+       {% if site.data.data.sidebar.name %}
+       <h1 class="name">{{site.data.data.sidebar.name}}</h1>
+       {% endif %}
+
+       {% if site.data.data.sidebar.tagline %}
+       <h3 class="tagline">{{site.data.data.sidebar.tagline}}</h3>
+       {% endif %}
+
+   </div><!--//profile-container-->
+
+   <div class="contact-container container-block">
+       <ul class="list-unstyled contact-list">
+
+          {% if site.data.data.sidebar.email %}
+           <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.data.data.sidebar.email}}">{{site.data.data.sidebar.email}}</a></li>
+           {% endif %}
+
+           {% if site.data.data.sidebar.website %}
+           <li class="website"><i class="fa fa-globe"></i><a href="https://{{site.data.data.sidebar.website}}" target="_blank">{{site.data.data.sidebar.website}}</a></li>
+           {% endif %}
+
+           {% if site.data.data.sidebar.linkedin %}
+           <li class="linkedin"><i class="fab fa-linkedin"></i><a href="https://linkedin.com/in/{{site.data.data.sidebar.linkedin}}" target="_blank"> {{site.data.data.sidebar.linkedin}}</a></li>
+           {% endif %}
+
+           {% if site.data.data.sidebar.github %}
+           <li class="github"><i class="fab fa-github"></i><a href="http://github.com/{{site.data.data.sidebar.github}}" target="_blank"> {{site.data.data.sidebar.github}}</a></li>
+           {% endif %}
+
+           {% if site.data.data.sidebar.phabricator %}
+           <li class="phabricator"><i class="fab fa-phabricator"></i><a href="https://reviews.llvm.org/p/{{site.data.data.sidebar.phabricator}}" target="_blank"> {{site.data.data.sidebar.phabricator}}</a></li>
+           {% endif %}
+
+           {% if site.data.data.sidebar.scopusid %}
+           <li class="scopusid"><i class="fa fa-chart-bar"></i>Scopus ID: <a href="https://www.scopus.com/authid/detail.uri?authorId={{site.data.data.sidebar.scopusid}}">{{site.data.data.sidebar.scopusid}}</a></li>
+           {% endif %}
+
+           {% if site.data.data.sidebar.researcherid %}
+           <li class="researcherid"><i class="fa fa-chart-bar"> </i>Researcher ID: <a href="http://www.researcherid.com/rid/{{site.data.data.sidebar.researcherid}}">{{site.data.data.sidebar.researcherid}}</a></li>
+           {% endif %}
+
+           {% if site.data.data.sidebar.orcid %}
+           <li class="orcid"><i class="fa  fa-chart-bar"></i>ORCID: <a href="https://orcid.org/{{site.data.data.sidebar.orcid}}" target="_blank">{{site.data.data.sidebar.orcid}}</a></li>
+           {% endif %}
+
+           {% if site.data.data.sidebar.google %}
+           <li class="google"><i class="fab fa-google"></i><a href="{{site.data.data.sidebar.google}}" target="_blank"> Google Scholar</a></li>
+           {% endif %}
+
+       </ul>
+   </div><!--//contact-container-->
+
+  {% if site.education_in_main == null or site.education_in_main == false %}
+    {% include education.html %}
+  {% endif %}
+  {% include language.html %}
+ 
+  {% if site.data.data.sidebar.about == true %}
+      {% include about.html %} 
+  {% endif %}
+
+</div><!--//sidebar-wrapper-->

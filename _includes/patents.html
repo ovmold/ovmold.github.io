@@ -1,0 +1,21 @@
+{% if site.data.data.patents %}
+<section class="section publications-section">
+
+  <h2 class="section-title"><i class="fa fa-certificate"></i>{{ site.data.data.patents.title }}</h2>
+
+  {% if site.data.data.patents.intro %}
+  <div class="intro">
+      <p>{{ site.data.data.patents.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for patent in site.data.data.patents.patents %}
+    <div class="item">
+      <div class="publication-title">Свидетельство №{{ patent.number }}. {{ patent.title }}</div>
+      <div class="publication-authors">{{ patent.authors }}</div>
+      <div class="publication-link">{{ patent.misc }}</div>
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

@@ -1,0 +1,22 @@
+{% if site.data.data.publications %}
+<section class="section publications-section">
+
+  <h2 class="section-title"><i class="fa fa-file-alt"></i>{{ site.data.data.publications.title }}</h2>
+
+  {% if site.data.data.publications.list %}
+  <div class="intro">
+      <p><a href="{{site.baseurl}}/assets/files/publications/{{ site.data.data.publications.list }}">Список всех публикаций</a></p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for publication in site.data.data.publications.publications %}
+    <div class="item">
+      <div class="publication-title">{{ publication.title }}</div>
+      <div class="publication-authors">{{ publication.authors }}</div>
+      <div class="publication-conference">{{ publication.conference }}</div>
+      <div class="publication-link"><a href="{{ publication.link }}">{{ publication.link }}</a></div>
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

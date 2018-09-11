@@ -1,0 +1,19 @@
+{% if site.data.data.tutorials %}
+<section class="section publications-section">
+
+  <h2 class="section-title"><i class="fa fa-book"></i>{{ site.data.data.tutorials.title }}</h2>
+
+  {% if site.data.data.tutorials.intro %}
+  <div class="intro">
+      <p>{{ site.data.data.tutorials.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for tutorial in site.data.data.tutorials.tutorials %}
+    <div class="item">
+      <div class="publication-title"><a href="{{ tutorial.link }}">{{ tutorial.title }}</a></div>
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
