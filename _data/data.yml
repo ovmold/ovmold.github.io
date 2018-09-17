@@ -6,7 +6,7 @@ sidebar:
     
     # Profile information
     name: Ольга Молдованова
-    tagline: Olga Moldovanova
+    tagline: moldovanova_cv.pdf
     pic: avatar.jpg  #place a 200x200 picture inside /assets/images/ folder and provide the name of the file below
     
     # Sidebar links
@@ -82,16 +82,31 @@ publications:
         title: "Automatic SIMD Vectorization of Loops: Issues, Energy Efficiency and Performance on Intel Processors"
         authors:  Moldovanova O., Kurnosov M.
         conference: "Supercomputing. RuSCDays 2017. Communications in Computer and Information Science (CCIS), Springer. 2017. Vol. 793. Р. 388-399. ISBN 978-3-319-71255-0"
-        link:
+        link: https://link.springer.com/chapter/10.1007/978-3-319-71255-0_31
       - paper:
         title: "Auto-Vectorization of Loops on Intel 64 and Intel Xeon Phi: Analysis and Evaluation"
         authors: Moldovanova O., Kurnosov M.  
         conference: "Proc. of the 14th International Conference on Parallel Computing Technologies (PaCT-2017), 2017. Springer LNCS 10421. P. 143-150. ISBN: 978-3-319-62931-5"
-        link:
+        link: https://link.springer.com/chapter/10.1007/978-3-319-62932-2_13
+      - paper:
+        title: "Исследование невекторизуемых классов циклов на SIMD-архитектурах с короткими векторными регистрами"
+        authors: Молдованова О.В., Курносов М.Г.  
+        conference: "Труды Международной конференции по вычислительной и прикладной математике в рамках Марчуковских научных чтений, Новосибирск, 25 июня – 14 июля 2017 г. С. 634-640"
+        link: "http://conf.nsc.ru/files/conferences/cam17/427967/ProceedingsCAM2017.pdf"
+      - paper:
+        title: Векторизация циклов в открытых компиляторах для архитектур с короткими векторными регистрами
+        authors: Молдованова О.В., Кулагин И.И., Курносов М.Г. 
+        conference: Труды 13-й Международной школы-семинара "Проблемы оптимизации сложных систем" в рамках международной конференции IEEE SIBIRCON 2017, Новосибирск, 18-22 сент. 2017 г. С. 70-78
+        link: http://conf.nsc.ru/opcs2017/ru/proceedings 
       - paper:
         title: "Эффективность автоматической векторизации циклов на архитектурах Intel 64 и Intel Xeon Phi"
         authors: Молдованова О.В., Курносов М.Г.  
         conference: "Известия вузов. Северо-Кавказский регион. Технические науки. 2017. № 3. С. 56-63"
+        link: https://technauka.npi-tu.ru/ru/archive/2017/issue3/moldovanova
+      - paper:
+        title: "Анализ эффективности векторизующих компиляторов на архитектурах Intel 64 и Intel Xeon Phi"
+        authors: Молдованова О.В., Курносов М.Г.  
+        conference: "Труды конференции 'Языки программирования и компиляторы-2017'. Ростов-на-Дону: Изд-во Юж. федер. ун-та, 2017. C. 216-218. ISBN 978-5-9275-2349-8"
         link:
       - paper:
         title: Применение глубокого обучения для решения задач самодиагностики распределенных вычислительных систем
@@ -110,30 +125,19 @@ publications:
         authors: Поляков А.Ю., Молдованова О.В.
         conference: Вестник ТГУ. Управление, вычисл. техника и информатика. 2011. № 2(15). С. 72-80
       - paper:
-        title: "Анализ эффективности векторизующих компиляторов на архитектурах Intel 64 и Intel Xeon Phi"
-        authors: Молдованова О.В., Курносов М.Г.  
-        conference: "Труды конференции 'Языки программирования и компиляторы-2017'. Ростов-на-Дону: Изд-во Юж. федер. ун-та, 2017. C. 216-218. ISBN 978-5-9275-2349-8"
-        link:
-      - paper:
-        title: "Исследование невекторизуемых классов циклов на SIMD-архитектурах с короткими векторными регистрами"
-        authors: Молдованова О.В., Курносов М.Г.  
-        conference: "Труды Международной конференции по вычислительной и прикладной математике в рамках Марчуковских научных чтений, Новосибирск, 25 июня – 14 июля 2017 г. С. 634-640"
-        link: "http://conf.nsc.ru/files/conferences/cam17/427967/ProceedingsCAM2017.pdf"
-      - paper:
-        title: Векторизация циклов в открытых компиляторах для архитектур с короткими векторными регистрами
-        authors: Молдованова О.В., Кулагин И.И., Курносов М.Г. 
-        conference: Труды 13-й Международной школы-семинара "Проблемы оптимизации сложных систем" в рамках международной конференции IEEE SIBIRCON 2017, Новосибирск, 18-22 сент. 2017 г. С. 70-78
-        link: http://conf.nsc.ru/opcs2017/ru/proceedings 
-      - paper:
         title: Децентрализованная самодиагностика распределенных вычислительных систем
         authors: Молдованова О.В. 
         conference: "Труды международной научной конференции 'Параллельные вычислительные технологии (ПаВТ'2012)', Новосибирск, 26-30 марта 2012 г. С. 621-626"
+      - paper:
+        title: Способы организации параллельных вычислений в задачах математического моделирования шахтных вентиляционных сетей (диссертация на соискание степени канд. техн. наук)
+        authors: Молдованова О.В. 
+        conference: 2008. 152 с. 
       - paper:
         title: Parallele Simulationsumgebung für dynamische Netzobjekte mit verteilten Parametern
         authors: Svjatnyj V.A., Moldovanova O.V., Feldmann L.P.
         conference: ASIM-Symposium Simulationstechnik. Tagungsband 18. Erlangen, 2005. S. 416-421. 
       - paper:
-        title: Generierung und parallele Lösung von Simulationsmodellen für Netzobjekte mit verteilten Parametern
+        title: Generierung und parllele Lösung von Simulationsmodellen für Netzobjekte mit verteilten Parametern
         authors: Svjatnyj V.A., Moldovanova O.V., Cheptsov O.O., Rothermel K., Zeitz M. 
         conference: ASIM-Symposium Simulationstechnik. Tagungsband 17. Magdeburg, 2003. S. 193-198. 
 
@@ -181,7 +185,7 @@ slides:
         title: "Auto-vectorization of Loops on Intel 64 and Intel Xeon Phi: Analysis and Evaluation"
         link: poster-pact-2017.pdf
       - slide:
-        title: "Применение полиэдральной модели для оптимизации гнезд циклов"
+        title: "Применение полиэдральной модели для оптимизации гнёзд циклов"
         link: moldovanova-polly-slides.pdf
 
 projects:
@@ -252,7 +256,7 @@ experiences:
       time: декабрь 2005 г. - апрель 2009 г.
       company: ООО "Лаборатория систем реального времени"
       details: "Участие в совместных проектах с компанией <a href=http://www.gpp-com.de>GPP AG</a> (Оберхахинг (г. Мюнхен))<br/>
-      Разработка веб-приложения для отслеживания координат объектов для системы AIMS (Autonomous Indoor Measurement System). Технологии/Языки: Java, JSP, SQL, MS SQL Server."
+      Разработка веб-приложения для отслеживания координат объектов для системы AIMS (Autonomous Indoor Measurement System).<br/>Технологии/Языки: Java, JSP, SQL, MS SQL Server."
     - experience:
       role: Аспирант
       time: ноябрь 2002 г. - ноябрь 2005 г.

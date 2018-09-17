@@ -10,7 +10,7 @@
        {% endif %}
 
        {% if site.data.data.sidebar.tagline %}
-       <h3 class="tagline">{{site.data.data.sidebar.tagline}}</h3>
+       <h3 class="tagline"><a href="{{site.baseurl}}/assets/files/publications/{{site.data.data.sidebar.tagline}}">Curriculum Vitae</a></h3>
        {% endif %}
 
    </div><!--//profile-container-->
@@ -35,7 +35,7 @@
            {% endif %}
 
            {% if site.data.data.sidebar.phabricator %}
-           <li class="phabricator"><i class="fab fa-phabricator"></i><a href="https://reviews.llvm.org/p/{{site.data.data.sidebar.phabricator}}" target="_blank"> Phabricator</a></li>
+           <li class="phabricator"><i class="fab fa-phabricator"></i><a href="https://reviews.llvm.org/p/{{site.data.data.sidebar.phabricator}}" target="_blank"> Phabricator (LLVM)</a></li>
            {% endif %}
 
            {% if site.data.data.sidebar.scopusid %}
