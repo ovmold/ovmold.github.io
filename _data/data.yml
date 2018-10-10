@@ -27,10 +27,10 @@ sidebar:
           level: родной
         - language:
           idiom: English
-          level: профессиональный
+          level: технический - средний уровень (В2)
         - language:
           idiom: Deutsch
-          level: профессиональный
+          level: технический - средний уровень (В1)
         
     # interests:
     #     - interest:
@@ -71,7 +71,7 @@ studies:
     - education:
       degree: Магистр по специальности «Компьютерные системы и сети»
       university: Донецкий национальный технический университет
-      time: 1995 - 2000
+      time: 2000
       details: 
 
 publications:
@@ -246,57 +246,49 @@ experiences:
   title: Опыт работы
   experiences:
     - experience:
-      role: Научный сотрудник
-      time: январь 2016 г. - сентябрь 2018 г.
-      company: <a href=http://www.isp.nsc.ru/>Институт физики полупроводников им. А.В. Ржанова Сибирского отделения РАН</a>
-      details: <a href=http://www.isp.nsc.ru/institut/nauchnye-podrazdeleniya/laboratoriya-4/o-laboratorii>Лаборатория вычислительных систем</a>
-    - experience:
       role: Доцент
-      time: июль 2009 г. - сентябрь 2018 г.
-      company: <a href=https://sibsutis.ru/>Сибирский государственный университет телекоммуникаций и информатики</a>
-      details: "<a href=https://csc.sibsutis.ru/>Кафедра вычислительных систем</a><p>Лекции и лабораторные работы по дисциплинам:
-      «Теория языков программирования и методы трансляции», «Структуры и алгоритмы обработки данных», «Операционные системы», «Архитектура информационных систем», «Организация ЭВМ и систем»</p>" 
+      time: 06.2009 - 09.2018
+      company: Сибирский государственный университет телекоммуникаций и информатики<br/>(г. Новосибирск), Кафедра вычислительных систем
+      details: 
     - experience:
       role: Инженер-программист
-      time: декабрь 2005 г. - апрель 2009 г.
+      time: 12.2005 - 04.2009
       company: ООО "Лаборатория систем реального времени"
-      details: "Участие в совместных проектах с компанией <a href=http://www.gpp-com.de>GPP AG</a> (Оберхахинг (г. Мюнхен))<br/>
-      Разработка веб-приложения для отслеживания координат объектов для системы AIMS (Autonomous Indoor Measurement System).<br/>Технологии/Языки: Java, JSP, SQL, MS SQL Server."
-    - experience:
-      role: Аспирант
-      time: ноябрь 2002 г. - ноябрь 2005 г.
-      company: <a href=http://donntu.org/>Донецкий национальный технический университет</a>
-      details: "Специальность: «Математическое моделирование, численные методы и комплексы программ»<br/>Тема диссертации: «Способы организации параллельных вычислений в задачах математического моделирования шахтных вентиляционных сетей»"
+      details: 
     - experience:
       role: Научный сотрудник
-      time: июль - сентябрь 2004 г.
-      company: <a href=http://hlrs.de/home/>HLRS</a> - Höchstleistungsrechenzentrum Stuttgart (High Performance Computing Center Stuttgart)
-      details: "Научно-исследовательская стажировка по теме диссертации"
+      time: 07.2004 - 09.2004
+      company: Höchstleistungsrechenzentrum Stuttgart, (г. Штутгарт, Германия)
+      details: 
     - experience:
-      role: Инженер
-      time: сентябрь 2000 г. - сентябрь 2002 г.
-      company: Siemens AG 
-      details: "Отдел A&D SE E (Automation & Drives System Engineering Entwicklung)<br/>
-      Участие в проекте (разработка технической документации и программирование) по разработке ПО для управления проектами.<br/>Технологии/Языки: Java, SQL, XML, Oracle, Windows."
+      role: Инженер-программист
+      time: 09.2000 - 09.2002
+      company: Siemens AG (г. Фюрт, Германия) 
+      details: 
     - experience:
-      role: Практикант
-      time: январь - июль 2000 г.
-      company: Siemens AG
-      details: "Отдел A&D SE E (Automation & Drives System Engineering Entwicklung)<br/>
-      Участие в проекте (разработка технической документации и программирование) по разработке ПО для систематизации выпускаемой продукции и неисправностей, обнаруженных в ней  при тестировании.<br/>Технологии/Языки: Visual C++, SQL, MS SQL Server, Windows."
+      role: Программист-стажер
+      time: 01.2000 - 07.2000
+      company: Siemens AG (г. Фюрт, Германия)
+      details: 
     - experience:
       role: Практикант
-      time: август 1999 г.
-      company: Universität Leipzig
-      details: "Отладка и тестирование примеров для учебника по параллельному программированию
-      <a href=https://link.springer.com/content/pdf/bfm%3A978-3-662-09196-8%2F1.pdf> Rauber T., Rünger G. Parallele und verteilte Programmierung. Springer, 2000. ISBN: 3-540-66009-7</a>
-      <br/>Технологии/Языки: C, MPI, GNU/Linux."     
+      time: "08.1999"
+      company: Universität Leipzig (г. Лейпциг, Германия)
+      details: 
 
 # skills:
-#     title: Профессиональные знания и навыки
-#     skills:
+#      title: Профессиональные знания и навыки
+#      skills:
 #         - skill:
-#           name: Skill
+#            name: C/C++
+#         - skill:
+#            name: x86 Assembler
+#         - skill:
+#            name: SQL
+#         - skill:
+#            name: Git
+#         - skill:
+#            name: Git
 #           level: 98%
 
 footer: 
