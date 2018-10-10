@@ -79,6 +79,11 @@ publications:
     list: moldovanova_publications.pdf
     publications:
       - paper:
+        title: Energy Efficiency and Performance of Auto-Vectorized Loops on Intel Xeon Processors
+        authors: "O.V. Moldovanova, M.G. Kurnosov, A. Mel'nikov"
+        conference: 3rd Russian-Pacific Conference on Computer Technology and Applications (RPC), Vladivostok, Russia, 2018
+        link: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8482210&isnumber=8481676
+      - paper:
         title: "Automatic SIMD Vectorization of Loops: Issues, Energy Efficiency and Performance on Intel Processors"
         authors:  Moldovanova O., Kurnosov M.
         conference: "Supercomputing. RuSCDays 2017. Communications in Computer and Information Science (CCIS), Springer. 2017. Vol. 793. Р. 388-399. ISBN 978-3-319-71255-0"
