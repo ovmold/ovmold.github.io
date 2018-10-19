@@ -194,9 +194,9 @@ slides:
       - slide:
         title: "Auto-vectorization of Loops on Intel 64 and Intel Xeon Phi: Analysis and Evaluation"
         link: poster-pact-2017.pdf
-      - slide:
-        title: "Применение полиэдральной модели для оптимизации гнёзд циклов"
-        link: moldovanova-polly-slides.pdf
+     # - slide:
+    #    title: "Применение полиэдральной модели для оптимизации гнёзд циклов"
+    #    link: moldovanova-polly-slides.pdf
 
 projects:
     title: Гранты
