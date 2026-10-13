@@ -251,6 +251,21 @@ experiences:
   title: Опыт работы
   experiences:
     - experience:
+      role: Руководитель команды
+      time: 08.2023 - 05.2026
+      company: Diasoft
+      details:
+    - experience:
+      role: Ведущий тестировщик
+      time: 04.2022 - 07.2023
+      company: Diasoft
+      details:
+    - experience:
+      role: Старший инженер по тестированию ПО
+      time: 10.2018 - 03.2022
+      company: EPICOR
+      details: 
+    - experience:
       role: Доцент
       time: 06.2009 - 09.2018
       company: Сибирский государственный университет телекоммуникаций и информатики<br/>(г. Новосибирск), Кафедра вычислительных систем
@@ -297,4 +312,4 @@ experiences:
 #           level: 98%
 
 footer: 
-    text: ' 2018 Olga Moldovanova. Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> for developers'
+    text: ' 2026 Olga Moldovanova. Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> for developers'
