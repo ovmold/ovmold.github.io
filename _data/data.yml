@@ -10,11 +10,11 @@ sidebar:
     pic: avatar.jpg  #place a 200x200 picture inside /assets/images/ folder and provide the name of the file below
     
     # Sidebar links
-    email: ovmold [at] gmail.com
+    email: ovmold [at] yandex.ru
     website: ovmold.github.io #do not add http://
     linkedin: linkedin.com/in/olga-moldovanova
     github: ovmold
-    phabricator: ovmold
+    # phabricator: ovmold
     scopusid: 57195551563
     researcherid: J-4449-2018
     orcid: 0000-0002-7146-1192
@@ -80,8 +80,8 @@ publications:
     publications:
       - paper:
         title: Energy Efficiency and Performance of Auto-Vectorized Loops on Intel Xeon Processors
-        authors: "O.V. Moldovanova, M.G. Kurnosov, A. Mel'nikov"
-        conference: 3rd Russian-Pacific Conference on Computer Technology and Applications (RPC), Vladivostok, Russia, 2018
+        authors: "Moldovanova O.V., Kurnosov M.G., Mel'nikov A."
+        conference: "2018 3rd Russian-Pacific Conference on Computer Technology and Applications (RPC), Vladivostok, Russia, 2018. P. 1-6."
         link: https://ieeexplore.ieee.org/document/8482210
       - paper:
         title: "Automatic SIMD Vectorization of Loops: Issues, Energy Efficiency and Performance on Intel Processors"
@@ -253,17 +253,17 @@ experiences:
     - experience:
       role: Руководитель команды
       time: 08.2023 - 05.2026
-      company: Diasoft
+      company: Diasoft (г. Москва)
       details:
     - experience:
       role: Ведущий тестировщик
       time: 04.2022 - 07.2023
-      company: Diasoft
+      company: Diasoft (г. Москва)
       details:
     - experience:
       role: Старший инженер по тестированию ПО
       time: 10.2018 - 03.2022
-      company: EPICOR
+      company: EPICOR (г. Москва)
       details: 
     - experience:
       role: Доцент
@@ -273,7 +273,7 @@ experiences:
     - experience:
       role: Инженер-программист
       time: 12.2005 - 04.2009
-      company: ООО "Лаборатория систем реального времени"
+      company: ООО "Лаборатория систем реального времени" (г. Донецк)
       details: 
     - experience:
       role: Научный сотрудник
